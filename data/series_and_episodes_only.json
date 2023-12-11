@@ -1,0 +1,720 @@
+{
+  "Series 1": {
+    "url": "https://taskmaster.info/season.php?id=1",
+    "episodes": [
+      {
+        "title": "Melon buffet",
+        "url": "https://taskmaster.info/episode.php?id=1"
+      },
+      {
+        "title": "The pie whisperer",
+        "url": "https://taskmaster.info/episode.php?id=2"
+      },
+      {
+        "title": "The poet and the egg",
+        "url": "https://taskmaster.info/episode.php?id=3"
+      },
+      {
+        "title": "Down an octave",
+        "url": "https://taskmaster.info/episode.php?id=4"
+      },
+      {
+        "title": "Little denim shorts",
+        "url": "https://taskmaster.info/episode.php?id=5"
+      },
+      {
+        "title": "The Last Supper",
+        "url": "https://taskmaster.info/episode.php?id=6"
+      }
+    ]
+  },
+  "Series 2": {
+    "url": "https://taskmaster.info/season.php?id=2",
+    "episodes": [
+      {
+        "title": "Fear of failure",
+        "url": "https://taskmaster.info/episode.php?id=7"
+      },
+      {
+        "title": "Pork is a sausage",
+        "url": "https://taskmaster.info/episode.php?id=8"
+      },
+      {
+        "title": "A pistachio éclair",
+        "url": "https://taskmaster.info/episode.php?id=9"
+      },
+      {
+        "title": "Welcome to Rico Face",
+        "url": "https://taskmaster.info/episode.php?id=10"
+      },
+      {
+        "title": "There’s strength in arches",
+        "url": "https://taskmaster.info/episode.php?id=11"
+      }
+    ]
+  },
+  "Series 3": {
+    "url": "https://taskmaster.info/season.php?id=3",
+    "episodes": [
+      {
+        "title": "A pea in a haystack",
+        "url": "https://taskmaster.info/episode.php?id=12"
+      },
+      {
+        "title": "The dong and the gong",
+        "url": "https://taskmaster.info/episode.php?id=13"
+      },
+      {
+        "title": "Little polythene grief cave",
+        "url": "https://taskmaster.info/episode.php?id=14"
+      },
+      {
+        "title": "A very nuanced character",
+        "url": "https://taskmaster.info/episode.php?id=15"
+      },
+      {
+        "title": "The F.I.P.",
+        "url": "https://taskmaster.info/episode.php?id=16"
+      }
+    ]
+  },
+  "Series 4": {
+    "url": "https://taskmaster.info/season.php?id=4",
+    "episodes": [
+      {
+        "title": "A fat bald white man",
+        "url": "https://taskmaster.info/episode.php?id=17"
+      },
+      {
+        "title": "Look at me",
+        "url": "https://taskmaster.info/episode.php?id=18"
+      },
+      {
+        "title": "Hollowing out a baguette",
+        "url": "https://taskmaster.info/episode.php?id=19"
+      },
+      {
+        "title": "Friendship is truth",
+        "url": "https://taskmaster.info/episode.php?id=20"
+      },
+      {
+        "title": "Meat",
+        "url": "https://taskmaster.info/episode.php?id=21"
+      },
+      {
+        "title": "Spatchcock it",
+        "url": "https://taskmaster.info/episode.php?id=22"
+      },
+      {
+        "title": "No stars for naughty boys",
+        "url": "https://taskmaster.info/episode.php?id=23"
+      },
+      {
+        "title": "Tony Three Pies",
+        "url": "https://taskmaster.info/episode.php?id=24"
+      }
+    ]
+  },
+  "Series 5": {
+    "url": "https://taskmaster.info/season.php?id=5",
+    "episodes": [
+      {
+        "title": "Dignity intact",
+        "url": "https://taskmaster.info/episode.php?id=25"
+      },
+      {
+        "title": "The leprechaun or the lesbian",
+        "url": "https://taskmaster.info/episode.php?id=26"
+      },
+      {
+        "title": "Phoenix",
+        "url": "https://taskmaster.info/episode.php?id=27"
+      },
+      {
+        "title": "Residue around the hoof",
+        "url": "https://taskmaster.info/episode.php?id=28"
+      },
+      {
+        "title": "A wind-dried puffin",
+        "url": "https://taskmaster.info/episode.php?id=29"
+      },
+      {
+        "title": "Spoony Neeson",
+        "url": "https://taskmaster.info/episode.php?id=30"
+      },
+      {
+        "title": "Boing boing",
+        "url": "https://taskmaster.info/episode.php?id=31"
+      },
+      {
+        "title": "Their water’s so delicious",
+        "url": "https://taskmaster.info/episode.php?id=32"
+      }
+    ]
+  },
+  "Champion of Champions": {
+    "url": "https://taskmaster.info/season.php?id=6",
+    "episodes": [
+      {
+        "title": "Wiley giraffe blower",
+        "url": "https://taskmaster.info/episode.php?id=33"
+      },
+      {
+        "title": "I’ve sinned again",
+        "url": "https://taskmaster.info/episode.php?id=34"
+      }
+    ]
+  },
+  "Series 6": {
+    "url": "https://taskmaster.info/season.php?id=7",
+    "episodes": [
+      {
+        "title": "The old soft curved padlock",
+        "url": "https://taskmaster.info/episode.php?id=35"
+      },
+      {
+        "title": "Tarpeters",
+        "url": "https://taskmaster.info/episode.php?id=36"
+      },
+      {
+        "title": "One warm prawn",
+        "url": "https://taskmaster.info/episode.php?id=37"
+      },
+      {
+        "title": "BMXing!",
+        "url": "https://taskmaster.info/episode.php?id=38"
+      },
+      {
+        "title": "H",
+        "url": "https://taskmaster.info/episode.php?id=39"
+      },
+      {
+        "title": "We met at mealtimes",
+        "url": "https://taskmaster.info/episode.php?id=40"
+      },
+      {
+        "title": "Roadkill doused in syrup",
+        "url": "https://taskmaster.info/episode.php?id=41"
+      },
+      {
+        "title": "What kind of pictures?",
+        "url": "https://taskmaster.info/episode.php?id=42"
+      },
+      {
+        "title": "The Bubble Brothers",
+        "url": "https://taskmaster.info/episode.php?id=43"
+      },
+      {
+        "title": "He was a different man",
+        "url": "https://taskmaster.info/episode.php?id=44"
+      }
+    ]
+  },
+  "Series 7": {
+    "url": "https://taskmaster.info/season.php?id=8",
+    "episodes": [
+      {
+        "title": "The mean bean",
+        "url": "https://taskmaster.info/episode.php?id=45"
+      },
+      {
+        "title": "My eyes are circles",
+        "url": "https://taskmaster.info/episode.php?id=46"
+      },
+      {
+        "title": "Twelve blush majesty two",
+        "url": "https://taskmaster.info/episode.php?id=47"
+      },
+      {
+        "title": "OLLIE",
+        "url": "https://taskmaster.info/episode.php?id=48"
+      },
+      {
+        "title": "Lotta soup",
+        "url": "https://taskmaster.info/episode.php?id=49"
+      },
+      {
+        "title": "A coquettish fascinator",
+        "url": "https://taskmaster.info/episode.php?id=50"
+      },
+      {
+        "title": "The perfect stuff",
+        "url": "https://taskmaster.info/episode.php?id=51"
+      },
+      {
+        "title": "Mother honks her horn",
+        "url": "https://taskmaster.info/episode.php?id=52"
+      },
+      {
+        "title": "The pendulum draws the eye",
+        "url": "https://taskmaster.info/episode.php?id=53"
+      },
+      {
+        "title": "I can hear it gooping",
+        "url": "https://taskmaster.info/episode.php?id=54"
+      }
+    ]
+  },
+  "Series 8": {
+    "url": "https://taskmaster.info/season.php?id=9",
+    "episodes": [
+      {
+        "title": "Hello",
+        "url": "https://taskmaster.info/episode.php?id=55"
+      },
+      {
+        "title": "A novel about Russian Gulags",
+        "url": "https://taskmaster.info/episode.php?id=56"
+      },
+      {
+        "title": "Stuck in a mammal groove",
+        "url": "https://taskmaster.info/episode.php?id=57"
+      },
+      {
+        "title": "The barrel dad",
+        "url": "https://taskmaster.info/episode.php?id=58"
+      },
+      {
+        "title": "Stay humble",
+        "url": "https://taskmaster.info/episode.php?id=59"
+      },
+      {
+        "title": "Rock ‘n’ roll umlaut",
+        "url": "https://taskmaster.info/episode.php?id=60"
+      },
+      {
+        "title": "This is Trevor",
+        "url": "https://taskmaster.info/episode.php?id=61"
+      },
+      {
+        "title": "Aquatic sewing machine",
+        "url": "https://taskmaster.info/episode.php?id=62"
+      },
+      {
+        "title": "I’ve been a bit ill",
+        "url": "https://taskmaster.info/episode.php?id=63"
+      },
+      {
+        "title": "Clumpy swayey clumsy man",
+        "url": "https://taskmaster.info/episode.php?id=64"
+      }
+    ]
+  },
+  "Series 9": {
+    "url": "https://taskmaster.info/season.php?id=10",
+    "episodes": [
+      {
+        "title": "Join our cult",
+        "url": "https://taskmaster.info/episode.php?id=65"
+      },
+      {
+        "title": "Butter in the microwave",
+        "url": "https://taskmaster.info/episode.php?id=66"
+      },
+      {
+        "title": "Five miles per day",
+        "url": "https://taskmaster.info/episode.php?id=67"
+      },
+      {
+        "title": "Quisps",
+        "url": "https://taskmaster.info/episode.php?id=68"
+      },
+      {
+        "title": "Another spoon",
+        "url": "https://taskmaster.info/episode.php?id=69"
+      },
+      {
+        "title": "Bready bready bready",
+        "url": "https://taskmaster.info/episode.php?id=70"
+      },
+      {
+        "title": "A cuddle",
+        "url": "https://taskmaster.info/episode.php?id=71"
+      },
+      {
+        "title": "Shaqinahat",
+        "url": "https://taskmaster.info/episode.php?id=72"
+      },
+      {
+        "title": "Don’t like them go bang",
+        "url": "https://taskmaster.info/episode.php?id=73"
+      },
+      {
+        "title": "Think about the spirit",
+        "url": "https://taskmaster.info/episode.php?id=74"
+      }
+    ]
+  },
+  "Series 10": {
+    "url": "https://taskmaster.info/season.php?id=11",
+    "episodes": [
+      {
+        "title": "God’s haemorrhoid",
+        "url": "https://taskmaster.info/episode.php?id=75"
+      },
+      {
+        "title": "A documentary about a despot",
+        "url": "https://taskmaster.info/episode.php?id=76"
+      },
+      {
+        "title": "Point of swivel",
+        "url": "https://taskmaster.info/episode.php?id=77"
+      },
+      {
+        "title": "Toshwash",
+        "url": "https://taskmaster.info/episode.php?id=78"
+      },
+      {
+        "title": "I hate your trainers",
+        "url": "https://taskmaster.info/episode.php?id=79"
+      },
+      {
+        "title": "Hippopotamus",
+        "url": "https://taskmaster.info/episode.php?id=80"
+      },
+      {
+        "title": "Legit glass",
+        "url": "https://taskmaster.info/episode.php?id=81"
+      },
+      {
+        "title": "Moments of silence",
+        "url": "https://taskmaster.info/episode.php?id=82"
+      },
+      {
+        "title": "Air Horn Andy",
+        "url": "https://taskmaster.info/episode.php?id=83"
+      },
+      {
+        "title": "Dog meat trifle",
+        "url": "https://taskmaster.info/episode.php?id=84"
+      }
+    ]
+  },
+  "New Year's Treat 2021": {
+    "url": "https://taskmaster.info/season.php?id=12",
+    "episodes": [
+      {
+        "title": "(special)",
+        "url": "https://taskmaster.info/season.php?id=12"
+      }
+    ]
+  },
+  "Series 11": {
+    "url": "https://taskmaster.info/season.php?id=32",
+    "episodes": [
+      {
+        "title": "It’s not your fault",
+        "url": "https://taskmaster.info/episode.php?id=211"
+      },
+      {
+        "title": "The lure of the treacle puppies",
+        "url": "https://taskmaster.info/episode.php?id=212"
+      },
+      {
+        "title": "Run up a tree to the moon",
+        "url": "https://taskmaster.info/episode.php?id=213"
+      },
+      {
+        "title": "Premature conker",
+        "url": "https://taskmaster.info/episode.php?id=214"
+      },
+      {
+        "title": "Slap and tong",
+        "url": "https://taskmaster.info/episode.php?id=215"
+      },
+      {
+        "title": "Absolute casserole",
+        "url": "https://taskmaster.info/episode.php?id=216"
+      },
+      {
+        "title": "You’ve got no chutzpah",
+        "url": "https://taskmaster.info/episode.php?id=217"
+      },
+      {
+        "title": "An orderly species",
+        "url": "https://taskmaster.info/episode.php?id=218"
+      },
+      {
+        "title": "Mr Octopus and Pottyhands",
+        "url": "https://taskmaster.info/episode.php?id=219"
+      },
+      {
+        "title": "Activate Jamali",
+        "url": "https://taskmaster.info/episode.php?id=220"
+      }
+    ]
+  },
+  "Series 12": {
+    "url": "https://taskmaster.info/season.php?id=38",
+    "episodes": [
+      {
+        "title": "An imbalance in the poppability",
+        "url": "https://taskmaster.info/episode.php?id=262"
+      },
+      {
+        "title": "Oatmeal and death",
+        "url": "https://taskmaster.info/episode.php?id=263"
+      },
+      {
+        "title": "The end of the franchise",
+        "url": "https://taskmaster.info/episode.php?id=264"
+      },
+      {
+        "title": "The customised inhaler",
+        "url": "https://taskmaster.info/episode.php?id=265"
+      },
+      {
+        "title": "Croissants is croissants",
+        "url": "https://taskmaster.info/episode.php?id=266"
+      },
+      {
+        "title": "A chair in a sweet",
+        "url": "https://taskmaster.info/episode.php?id=267"
+      },
+      {
+        "title": "The integrity of the product",
+        "url": "https://taskmaster.info/episode.php?id=268"
+      },
+      {
+        "title": "A couple of Ethels",
+        "url": "https://taskmaster.info/episode.php?id=269"
+      },
+      {
+        "title": "Nothing matters",
+        "url": "https://taskmaster.info/episode.php?id=270"
+      },
+      {
+        "title": "Caring Uncle Minpict",
+        "url": "https://taskmaster.info/episode.php?id=271"
+      }
+    ]
+  },
+  "New Year's Treat 2022": {
+    "url": "https://taskmaster.info/season.php?id=47",
+    "episodes": [
+      {
+        "title": "(special)",
+        "url": "https://taskmaster.info/season.php?id=47"
+      }
+    ]
+  },
+  "Series 13": {
+    "url": "https://taskmaster.info/season.php?id=48",
+    "episodes": [
+      {
+        "title": "The noise that blue makes",
+        "url": "https://taskmaster.info/episode.php?id=312"
+      },
+      {
+        "title": "Birdy hand finger",
+        "url": "https://taskmaster.info/episode.php?id=313"
+      },
+      {
+        "title": "I think I've got this",
+        "url": "https://taskmaster.info/episode.php?id=314"
+      },
+      {
+        "title": "Shoe Who",
+        "url": "https://taskmaster.info/episode.php?id=315"
+      },
+      {
+        "title": "Having a little chuckle",
+        "url": "https://taskmaster.info/episode.php?id=316"
+      },
+      {
+        "title": "The 75th question",
+        "url": "https://taskmaster.info/episode.php?id=317"
+      },
+      {
+        "title": "Heg",
+        "url": "https://taskmaster.info/episode.php?id=318"
+      },
+      {
+        "title": "You tuper super",
+        "url": "https://taskmaster.info/episode.php?id=319"
+      },
+      {
+        "title": "It might be wind",
+        "url": "https://taskmaster.info/episode.php?id=320"
+      },
+      {
+        "title": "The House Queens",
+        "url": "https://taskmaster.info/episode.php?id=321"
+      }
+    ]
+  },
+  "Champion of Champions II": {
+    "url": "https://taskmaster.info/season.php?id=46",
+    "episodes": [
+      {
+        "title": "(special)",
+        "url": "https://taskmaster.info/season.php?id=46"
+      }
+    ]
+  },
+  "Series 14": {
+    "url": "https://taskmaster.info/season.php?id=55",
+    "episodes": [
+      {
+        "title": "The chassis, the wings",
+        "url": "https://taskmaster.info/episode.php?id=384"
+      },
+      {
+        "title": "Enormous hugeness",
+        "url": "https://taskmaster.info/episode.php?id=385"
+      },
+      {
+        "title": "Dafty in the middle",
+        "url": "https://taskmaster.info/episode.php?id=386"
+      },
+      {
+        "title": "Crumbs in my bralette",
+        "url": "https://taskmaster.info/episode.php?id=387"
+      },
+      {
+        "title": "Chip Biffington",
+        "url": "https://taskmaster.info/episode.php?id=388"
+      },
+      {
+        "title": "Long-legged lobster",
+        "url": "https://taskmaster.info/episode.php?id=389"
+      },
+      {
+        "title": "The system of endless plates",
+        "url": "https://taskmaster.info/episode.php?id=390"
+      },
+      {
+        "title": "The one that bats do",
+        "url": "https://taskmaster.info/episode.php?id=391"
+      },
+      {
+        "title": "A new business end",
+        "url": "https://taskmaster.info/episode.php?id=392"
+      },
+      {
+        "title": "Did I meet these potatoes before?",
+        "url": "https://taskmaster.info/episode.php?id=393"
+      }
+    ]
+  },
+  "New Year's Treat 2023": {
+    "url": "https://taskmaster.info/season.php?id=66",
+    "episodes": [
+      {
+        "title": "(special)",
+        "url": "https://taskmaster.info/season.php?id=66"
+      }
+    ]
+  },
+  "Series 15": {
+    "url": "https://taskmaster.info/season.php?id=56",
+    "episodes": [
+      {
+        "title": "The curse of politeness",
+        "url": "https://taskmaster.info/episode.php?id=462"
+      },
+      {
+        "title": "Trapped in a loveless marriage",
+        "url": "https://taskmaster.info/episode.php?id=463"
+      },
+      {
+        "title": "I love to squander promise",
+        "url": "https://taskmaster.info/episode.php?id=464"
+      },
+      {
+        "title": "How heavy is the water?",
+        "url": "https://taskmaster.info/episode.php?id=465"
+      },
+      {
+        "title": "Old Honkfoot",
+        "url": "https://taskmaster.info/episode.php?id=466"
+      },
+      {
+        "title": "It's my milk now",
+        "url": "https://taskmaster.info/episode.php?id=467"
+      },
+      {
+        "title": "Schrödinger's egg",
+        "url": "https://taskmaster.info/episode.php?id=468"
+      },
+      {
+        "title": "100% Bosco",
+        "url": "https://taskmaster.info/episode.php?id=469"
+      },
+      {
+        "title": "A show about pedantry",
+        "url": "https://taskmaster.info/episode.php?id=470"
+      },
+      {
+        "title": "A yardstick for failure",
+        "url": "https://taskmaster.info/episode.php?id=471"
+      }
+    ]
+  },
+  "Series 16": {
+    "url": "https://taskmaster.info/season.php?id=73",
+    "episodes": [
+      {
+        "title": "The natural friends",
+        "url": "https://taskmaster.info/episode.php?id=502"
+      },
+      {
+        "title": "Hell is here",
+        "url": "https://taskmaster.info/episode.php?id=503"
+      },
+      {
+        "title": "Languidly",
+        "url": "https://taskmaster.info/episode.php?id=504"
+      },
+      {
+        "title": "Dynamite chicks",
+        "url": "https://taskmaster.info/episode.php?id=505"
+      },
+      {
+        "title": "Skateboard Division",
+        "url": "https://taskmaster.info/episode.php?id=506"
+      },
+      {
+        "title": "Brother Alex",
+        "url": "https://taskmaster.info/episode.php?id=507"
+      },
+      {
+        "title": "I'm off to find a robin",
+        "url": "https://taskmaster.info/episode.php?id=508"
+      },
+      {
+        "title": "Never packed a boot",
+        "url": "https://taskmaster.info/episode.php?id=509"
+      },
+      {
+        "title": "Fagin at the disco",
+        "url": "https://taskmaster.info/episode.php?id=510"
+      },
+      {
+        "title": "Always forks and marbles",
+        "url": "https://taskmaster.info/episode.php?id=511"
+      }
+    ]
+  },
+  "New Year's Treat 2024": {
+    "url": "https://taskmaster.info/season.php?id=87"
+  },
+  "Champion of Champions III": {
+    "url": "https://taskmaster.info/season.php?id=88"
+  },
+  "Series 17": {
+    "url": "https://taskmaster.info/season.php?id=74"
+  },
+  "Series 18": {
+    "url": "https://taskmaster.info/season.php?id=75"
+  },
+  "Series 19": {
+    "url": "https://taskmaster.info/season.php?id=76"
+  },
+  "Series 20": {
+    "url": "https://taskmaster.info/season.php?id=77"
+  },
+  "Series 21": {
+    "url": "https://taskmaster.info/season.php?id=78"
+  }
+}
