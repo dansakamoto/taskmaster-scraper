@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 from time import sleep
-import random, json, time
+import random, json, time, os
 
 # CONFIG
 debug = True
@@ -77,8 +77,9 @@ TBC
 Save the results
 """
 fName = f"outputs/out-{time.time()}.json"
+os.makedirs(os.path.dirname(fName), exist_ok=True)
 print("\nWriting results to file " + fName)
-out = open(fName, "w")
-out.write(json.dumps(seasons, indent=2, ensure_ascii=False))
-out.close()
+with open(fName, "w") as f:
+    f.write(json.dumps(seasons, indent=2, ensure_ascii=False))
+    f.close()
 print("\nDone!")
