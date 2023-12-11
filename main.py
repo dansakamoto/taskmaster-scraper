@@ -59,6 +59,11 @@ for k, s in seasons.items():
     seasons[k]["episodes"] = episodes
 
 """
+TO DO:  if a season is unaired, it should be deleted from the dictionary,
+        instead of passed on to step 3
+"""
+
+"""
 STEP 3: collect tasks
 TBC
 """
