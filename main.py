@@ -4,12 +4,14 @@ from time import sleep
 import random, json, time, os
 
 # CONFIG
-baseUrl = "https://taskmaster.info" 
+baseUrl = "https://taskmaster.info"
 rootUrl = "https://taskmaster.info/show.php?id=1"
 blacklist = ["Edinburgh Does... Taskmaster"]
 headers = {
     "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
 }
+attempts = 0
+attemptLimit = 5
 
 # load base URL
 req = Request(rootUrl, headers=headers)
@@ -19,7 +21,7 @@ soup = BeautifulSoup(html_page, "lxml")
 allSeasons = {}
 
 # DEBUG
-skipTo = 3
+skipTo = 4
 if skipTo > 0:
     debugData = f"data/step{skipTo-1}_results.json"
     with open(debugData, "r") as f:
@@ -46,9 +48,23 @@ if skipTo <= 2:
     unaired = []
     for k, s in allSeasons.items():
         sleep(random.uniform(2, 5))
-        print("\nScanning " + k)
+        print("\nScanning season: " + k)
         req = Request(s["url"], headers=headers)
-        html_page = urlopen(req).read()
+        html_page = None
+        while html_page == None:
+            try:
+                html_page = urlopen(req).read()
+            except:
+                attempts += 1
+                if attempts >= attemptLimit:
+                    input(
+                        "Too many page load errors, pausing execution. Press enter to resume..."
+                    )
+                    attempts = 0
+                print("Error loading page, retrying...")
+                sleep(10)
+            finally:
+                attempts = 0
         soup = BeautifulSoup(html_page, "html.parser")
         soup2 = soup.select("#episodes")
         isSpecial = len(soup2) == 0
@@ -79,28 +95,98 @@ STEP 3: collect tasks
 if skipTo <= 3:
     for skey, svalue in allSeasons.items():
         for episode in svalue["episodes"]:
-            sleep(random.uniform(2,5))
-            print("\nScanning " + episode["title"])
+            sleep(random.uniform(2, 5))
+            print("\nScanning episode: " + episode["title"])
             req = Request(episode["url"], headers=headers)
-            html_page = urlopen(req).read()
+            html_page = None
+            while html_page == None:
+                try:
+                    html_page = urlopen(req).read()
+                except:
+                    attempts += 1
+                    if attempts >= attemptLimit:
+                        input(
+                            "Too many page load errors, pausing execution. Press enter to resume..."
+                        )
+                        attempts = 0
+                    print("Error loading page, retrying...")
+                    sleep(10)
+                finally:
+                    attempts = 0
             soup = BeautifulSoup(html_page, "html.parser")
-            soup2 = soup.select("#tasks > div.task > div.taskInfo > div.taskCardTaskTitle > h3.taskLink > a")
+            soup2 = soup.select(
+                "#tasks > div.task > div.taskInfo > div.taskCardTaskTitle > h3.taskLink > a"
+            )
             tasks = []
             for item in soup2:
                 print(f"found task: {item.string}\nurl: {item['href']}")
                 tasks.append({"title": item.string, "url": baseUrl + item["href"]})
             episode["tasks"] = tasks
-        
 
 """
 STEP 4: collect task data
-TBC
 """
-
-"""
-STEP 5 (optional): analyze/filter/format task data
-TBC
-"""
+if skipTo <= 4:
+    for skey, svalue in allSeasons.items():
+        for episode in svalue["episodes"]:
+            for task in episode["tasks"]:
+                sleep(random.uniform(2, 5))
+                print("\nScanning task: " + task["title"])
+                req = Request(task["url"], headers=headers)
+                html_page = None
+                while html_page == None:
+                    try:
+                        html_page = urlopen(req).read()
+                    except:
+                        attempts += 1
+                        if attempts >= attemptLimit:
+                            input(
+                                "Too many page load errors, pausing execution. Press enter to resume..."
+                            )
+                            attempts = 0
+                        print("Error loading page, retrying...")
+                        sleep(10)
+                    finally:
+                        attempts = 0
+                soup = BeautifulSoup(html_page, "html.parser")
+                soup2 = soup.find("div", {"class": "description"})
+                children = soup2.findChildren()
+                taskBriefs = []
+                newBrief = {}
+                hrFlag = False
+                for c in children:
+                    for br in c.findAll("br"):
+                        br.replace_with("\n")
+                    classes = c.get("class")
+                    if (
+                        classes != None
+                        and classes[0] != "taskBrief"
+                        and classes[0] != "briefNote"
+                    ):
+                        print("ERROR: unkown class found: " + classes[0])
+                        exit()
+                    if hrFlag:
+                        if c.name == "hr":
+                            hrFlag = False
+                            continue
+                        elif classes != None and (
+                            classes[0] == "briefNote" or classes[0] == "taskBrief"
+                        ):
+                            print("ERROR! Funky task structure")
+                            exit()
+                    if c.name == "p" and classes != None and classes[0] == "briefNote":
+                        newBrief["briefNote"] = c.string
+                    elif (
+                        c.name == "blockquote"
+                        and classes != None
+                        and classes[0] == "taskBrief"
+                    ):
+                        newBrief["taskBrief"] = c.text
+                        taskBriefs.append(newBrief)
+                        newBrief = {}
+                        hrFlag = True
+                print(taskBriefs[0]["taskBrief"])
+                task["description"] = taskBriefs
 
 """
 Save the results
