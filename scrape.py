@@ -12,6 +12,8 @@ headers = {
 }
 attempts = 0
 attemptLimit = 5
+firstStep = 3
+lastStep = 3
 
 # load base URL
 req = Request(rootUrl, headers=headers)
@@ -20,18 +22,16 @@ soup = BeautifulSoup(html_page, "lxml")
 
 allSeasons = {}
 
-# DEBUG
-skipTo = 4
-if skipTo > 0:
-    debugData = f"data/step{skipTo-1}_results.json"
-    with open(debugData, "r") as f:
+if firstStep > 1:
+    existingData = f"data/step{firstStep-1}_results.json"
+    with open(existingData, "r") as f:
         allSeasons = json.load(f)
         f.close()
 
 """
 STEP 1: collect seasons
 """
-if skipTo <= 1:
+if firstStep == 1:
     soup = soup.select("#seasonsandspecials > div.season > p.seasonTitle > a")
     print("Loading seasons list...")
     for r in soup:
@@ -41,10 +41,28 @@ if skipTo <= 1:
         season["url"] = baseUrl + r["href"]
         allSeasons[r.string] = season
 
+    if os.path.isfile("data/step1_results.json"):
+        os.rename(
+            "data/step1_results.json",
+            f"archived/step1_results_moved-{time.time()}.json",
+        )
+
+    fName = f"data/step1_results.json"
+    os.makedirs(os.path.dirname(fName), exist_ok=True)
+    print("\nWriting step 1 results to file " + fName)
+    with open(fName, "w") as f:
+        f.write(json.dumps(allSeasons, indent=2, ensure_ascii=False))
+        f.close()
+    print("\nDone!")
+
+    if lastStep == 1:
+        exit()
+
+
 """
 STEP 2: collect episodes
 """
-if skipTo <= 2:
+if firstStep <= 2:
     unaired = []
     for k, s in allSeasons.items():
         sleep(random.uniform(2, 5))
@@ -89,10 +107,27 @@ if skipTo <= 2:
     for k in unaired:
         allSeasons.pop(k)
 
+    if os.path.isfile("data/step2_results.json"):
+        os.rename(
+            "data/step2_results.json",
+            f"archived/step2_results_moved-{time.time()}.json",
+        )
+
+    fName = f"data/step2_results.json"
+    os.makedirs(os.path.dirname(fName), exist_ok=True)
+    print("\nWriting step 2 results to file " + fName)
+    with open(fName, "w") as f:
+        f.write(json.dumps(allSeasons, indent=2, ensure_ascii=False))
+        f.close()
+    print("\nDone!")
+
+    if lastStep == 2:
+        exit()
+
 """
 STEP 3: collect tasks
 """
-if skipTo <= 3:
+if firstStep <= 3:
     for skey, svalue in allSeasons.items():
         for episode in svalue["episodes"]:
             sleep(random.uniform(2, 5))
@@ -123,10 +158,27 @@ if skipTo <= 3:
                 tasks.append({"title": item.string, "url": baseUrl + item["href"]})
             episode["tasks"] = tasks
 
+    if os.path.isfile("data/step3_results.json"):
+        os.rename(
+            "data/step3_results.json",
+            f"archived/step3_results_moved-{time.time()}.json",
+        )
+
+    fName = f"data/step3_results.json"
+    os.makedirs(os.path.dirname(fName), exist_ok=True)
+    print("\nWriting step 3 results to file " + fName)
+    with open(fName, "w") as f:
+        f.write(json.dumps(allSeasons, indent=2, ensure_ascii=False))
+        f.close()
+    print("\nDone!")
+
+    if lastStep == 3:
+        exit()
+
 """
 STEP 4: collect task data
 """
-if skipTo <= 4:
+if firstStep <= 4:
     for skey, svalue in allSeasons.items():
         for episode in svalue["episodes"]:
             for task in episode["tasks"]:

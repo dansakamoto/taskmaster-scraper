@@ -704,5 +704,59 @@
         "url": "https://taskmaster.info/season.php?id=87"
       }
     ]
+  },
+  "Champion of Champions III": {
+    "url": "https://taskmaster.info/season.php?id=88",
+    "episodes": [
+      {
+        "title": "(special)",
+        "url": "https://taskmaster.info/season.php?id=88"
+      }
+    ]
+  },
+  "Series 17": {
+    "url": "https://taskmaster.info/season.php?id=74",
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "url": "https://taskmaster.info/episode.php?id=610"
+      },
+      {
+        "title": "Episode 2",
+        "url": "https://taskmaster.info/episode.php?id=611"
+      },
+      {
+        "title": "Episode 3",
+        "url": "https://taskmaster.info/episode.php?id=612"
+      },
+      {
+        "title": "Episode 4",
+        "url": "https://taskmaster.info/episode.php?id=613"
+      },
+      {
+        "title": "Episode 5",
+        "url": "https://taskmaster.info/episode.php?id=614"
+      },
+      {
+        "title": "Episode 6",
+        "url": "https://taskmaster.info/episode.php?id=615"
+      },
+      {
+        "title": "Episode 7",
+        "url": "https://taskmaster.info/episode.php?id=616"
+      },
+      {
+        "title": "Episode 8",
+        "url": "https://taskmaster.info/episode.php?id=617"
+      },
+      {
+        "title": "Episode 9",
+        "url": "https://taskmaster.info/episode.php?id=618"
+      },
+      {
+        "title": "Episode 10",
+        "url": "https://taskmaster.info/episode.php?id=619"
+      }
+    ]
   }
 }
