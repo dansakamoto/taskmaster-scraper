@@ -151,8 +151,36 @@ if skipTo <= 4:
                         attempts = 0
                 soup = BeautifulSoup(html_page, "html.parser")
                 # soup2 = soup.find("div", {"class": "description"})
-                soup2 = soup.find("div", {"id": "aboutTask"})
-                children = soup2.findChildren(recursive=False)
+                soup2 = soup.find_all("div", {"id": "aboutTask"})
+
+                # TEST ASSUMPTION: aboutTask count
+                print("Testing assumption: number of divs with ID=aboutTask == 1")
+                print("count: " + str(len(soup2)))
+                if len(soup2) != 1:
+                    print(
+                        "EXCEPTION FOUND: unexpected number of divs with id=aboutTask"
+                    )
+                    exit()
+
+                children = soup2[0].findChildren(recursive=False)
+
+                # TEST ASSUMPTION: aboutTask has exactly 5 children
+                print("Testing assumption: aboutTask has exactly 5 children")
+                print("count: " + str(len(children)))
+                if len(children) != 5:
+                    print("EXCEPTION FOUND: unexpected number of children in aboutTask")
+                    exit()
+
+                # TEST ASSUMPTION: child 0 is an h1
+                # TEST ASSUMPTION: child 1 is an img of id="coverImage"
+                # TEST ASSUMPTION: child 2 is a div of id="infoBelowTitle"
+                # TEST ASSUMPTION: child 3 is a div with class="description"
+                # TEST ASSUMPTION: child 4 is a div of id="navLinks"
+
+                for c in children:
+                    print(c)
+                    print("\n")
+                exit()
 
                 if len(children) != 5:
                     print(

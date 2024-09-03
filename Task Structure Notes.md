@@ -7,6 +7,8 @@ DIV ID=aboutTask (ASSUMED EXISTS AND UNIQUE)
     h1 (ASSUMED UNIQUE)
     ASSUMPTION: Task page heading will match Task link heading
 
+    img (ASSUMED UNIQUE)
+
     DIV ID=infoBelowTitle (ASSUMED EXISTS AND UNIQUE)
 
         Task types (list of categories) (ASSUMED EXISTS AND UNIQUE)
