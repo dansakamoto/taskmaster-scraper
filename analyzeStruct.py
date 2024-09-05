@@ -153,7 +153,8 @@ if skipTo <= 4:
                 # soup2 = soup.find("div", {"class": "description"})
                 soup2 = soup.find_all("div", {"id": "aboutTask"})
 
-                # TEST ASSUMPTION: aboutTask count
+                # TEST ASSUMPTIONS --------
+
                 print("Testing assumption: number of divs with ID=aboutTask == 1")
                 print("count: " + str(len(soup2)))
                 if len(soup2) != 1:
@@ -164,22 +165,187 @@ if skipTo <= 4:
 
                 children = soup2[0].findChildren(recursive=False)
 
-                # TEST ASSUMPTION: aboutTask has exactly 5 children
-                print("Testing assumption: aboutTask has exactly 5 children")
+                print("Testing assumption: aboutTask has 5 or 6 children")
                 print("count: " + str(len(children)))
-                if len(children) != 5:
+                if len(children) != 5 and len(children) != 6:
                     print("EXCEPTION FOUND: unexpected number of children in aboutTask")
                     exit()
 
-                # TEST ASSUMPTION: child 0 is an h1
-                # TEST ASSUMPTION: child 1 is an img of id="coverImage"
-                # TEST ASSUMPTION: child 2 is a div of id="infoBelowTitle"
-                # TEST ASSUMPTION: child 3 is a div with class="description"
-                # TEST ASSUMPTION: child 4 is a div of id="navLinks"
+                print("Testing assumption: child 0 is an h1")
+                print("tag: " + children[0].name)
+                if children[0].name != "h1":
+                    print("EXCEPTION FOUND: child 0 is wrong type")
+                    exit()
 
-                for c in children:
-                    print(c)
-                    print("\n")
+                print("Testing assumption: child 1 is an image of id=coverImage")
+                print("tag: " + children[1].name + ", id: " + children[1]["id"])
+                if children[1].name != "img":
+                    print("EXCEPTION FOUND: child 1 is wrong type")
+                    exit()
+                if children[1]["id"] != "coverImage":
+                    print("EXCEPTION FOUND: child 1 is wrong id")
+                    exit()
+
+                print("Testing assumption: child 2 is a div of id=infoBelowTitle")
+                print("tag: " + children[2].name + ", id: " + children[2]["id"])
+                if children[2].name != "div":
+                    print("EXCEPTION FOUND: child 2 is wrong type")
+                    exit()
+                if children[2]["id"] != "infoBelowTitle":
+                    print("EXCEPTION FOUND: child 2 is wrong id")
+                    exit()
+
+                print("Testing assumption: child 3 is a div of class=description")
+                print(
+                    "tag: " + children[3].name + ", class: " + children[3]["class"][0]
+                )
+                if children[3].name != "div":
+                    print("EXCEPTION FOUND: child 3 is wrong type")
+                    exit()
+                if children[3]["class"][0] != "description":
+                    print("EXCEPTION FOUND: child 3 is wrong class")
+                    exit()
+
+                if len(children) == 5:
+                    print(
+                        "Testing assumption: child 5 out of 5 is a div of id=navLinks"
+                    )
+                    print("tag: " + children[4].name + ", id: " + children[4]["id"])
+                    if children[4].name != "div":
+                        print("EXCEPTION FOUND: child 4 is wrong type")
+                        exit()
+                    if children[4]["id"] != "navLinks":
+                        print("EXCEPTION FOUND: child 4 is wrong id")
+                        exit()
+
+                if len(children) == 6:
+                    print("Testing assumption: child 5 out of 6 is a div of id=notes")
+                    print("tag: " + children[4].name + ", id: " + children[4]["id"])
+                    if children[4].name != "div":
+                        print("EXCEPTION FOUND: child 4 is wrong type")
+                        exit()
+                    if children[4]["id"] != "notes":
+                        print("EXCEPTION FOUND: child 4 is wrong id")
+                        exit()
+
+                    print(
+                        "Testing assumption: child 6 out of 6 is a div of id=navLinks"
+                    )
+                    print("tag: " + children[5].name + ", id: " + children[5]["id"])
+                    if children[5].name != "div":
+                        print("EXCEPTION FOUND: child 5 is wrong type")
+                        exit()
+                    if children[4]["id"] != "navLinks":
+                        print("EXCEPTION FOUND: child 5 is wrong id")
+                        exit()
+
+                print("Testing assumption: h1 text len > 0")
+                print(
+                    "text: " + children[0].text + ", len: " + str(len(children[0].text))
+                )
+                if len(children[0].text) == 0:
+                    print("EXCEPTION FOUND: h1 has no text")
+                    exit()
+
+                infoBelowTitle = children[2]
+
+                print("Testing assumption: infoBelowTitle has 3 or 4 children")
+                print("count: " + str(len(infoBelowTitle)))
+                if len(infoBelowTitle) != 3 and len(infoBelowTitle) != 4:
+                    print(
+                        "EXCEPTION FOUND: unexpected number of children in infoBelowTitle"
+                    )
+                    exit()
+
+                # all of infoBelowTitle children are div of class=infoTableRow
+                # each child has two children, a div of class=rowLead, followed by a div of class=rowValue
+
+                # child 0 rowLead text = "Task types:"
+                # child 0 rowValue has one child - a div of class=taskTypes
+                # taskTypes has at least one child, all children are div of class=taskType, each contains a span of class=taskTypeText, taskTypeText text len > 0
+                print(
+                    "Testing assumption: infoBelowTitle child 0 = Task types, contains list of task types"
+                )
+
+                e = 0
+                for k, v in infoBelowTitle:
+                    if (
+                        k.name != "div"
+                        or k["class"][0] != "rowLead"
+                        or k.text != "Task types:"
+                    ):
+                        print("EXCEPTION: unexpected key in infoBelowTitle")
+                        exit()
+                    if v.name != "div" or v["class"][0] != "rowValue":
+                        print("EXCEPTION: unexpected value in infoBelowTitle")
+                        exit()
+
+                    for infoTableRow in v:
+                        print(infoTableRow.)
+
+                        exit()
+                        """if len(v1) == 0:
+                            print("EXCEPTION: no task types found")
+                            exit()
+                        for tt in v1:
+                            if tt.name != "div" or tt["class"][0] != "taskType":
+                                print("EXCEPTION in taskTypes list")
+                                exit()
+                            tts = tt.find("span")
+                            print(tts)"""
+
+                    e += 1
+
+                exit()
+
+                taskTypes = infoBelowTitle
+                if (
+                    taskTypes["class"][0] != "infoTableRow"
+                    or len(taskTypes != 2)
+                    or taskTypes[0]["class"][0] != "rowLead"
+                    or taskTypes[1]["class"][0] != "rowValue"
+                    or taskTypes[0].text != "Task types:"
+                    or len(taskTypes[1]) != 1
+                    or taskTypes[1][0].name != "div"
+                    or taskTypes[1][0]["class"][0] != "taskTypes"
+                    or len(taskTypes[1][0]) == 0
+                ):
+                    print("EXCEPTION FOUND in infoBelowTitle")
+                    exit()
+                taskTypes = taskTypes[1][0]
+                for tt in taskTypes:
+                    if (
+                        tt.name != "div"
+                        or tt["class"][0] != "taskType"
+                        or len(tt) != 1
+                        or tt[0].name != "span"
+                        or len(tt[0]) == 0
+                    ):
+                        print("EXCEPTION FOUND in a task type")
+                        exit()
+
+                # child 1 rowLead text = "Mastertasks:"
+                # child 1 rowValue has at least one anchor child - both anchor text and href len are > 0
+
+                # child 2 rowLead text = "Locations:"
+                # child 2 rowValue has at least one anchor child - both anchor text and href len are > 0
+
+                # child 3 rowLead text= "Spaces:" (optional)
+                # child 3 rowValue has at least one anchor child - both anchor text and href len are > 0
+
+                # description assumptions
+                # exactly 3 children
+                # child 0 = h1, text len > 0
+                # child 1 = p, text len > 0
+                # child 2 = blockquote of class=taskBrief, text len > 0
+
+                # notes assumptions
+                # if notes exists, has exactly 2 children
+                # child 0 = h2, text len > 0
+                # child 1 = ul
+                # ul has at least one child, all children are li, li text len > 0
+
+                print("All assumptions passed")
                 exit()
 
                 if len(children) != 5:
