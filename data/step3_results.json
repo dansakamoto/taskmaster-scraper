@@ -1107,7 +1107,7 @@
             "url": "https://taskmaster.info/task.php?id=215"
           },
           {
-            "title": "Take the wind-up man on an adventure",
+            "title": "Take a little wind-up man on an extraordinary journey",
             "url": "https://taskmaster.info/task.php?id=216"
           },
           {
@@ -1757,7 +1757,7 @@
             "url": "https://taskmaster.info/task.php?id=343"
           },
           {
-            "title": "Get the most weight into a hammock",
+            "title": "Put the most weight into a hammock",
             "url": "https://taskmaster.info/task.php?id=344"
           },
           {
@@ -1865,7 +1865,7 @@
             "url": "https://taskmaster.info/task.php?id=364"
           },
           {
-            "title": "Make a portrait of a former contestant using sand and one tool",
+            "title": "Create a sand portrait of a former contestant",
             "url": "https://taskmaster.info/task.php?id=365"
           },
           {
@@ -2371,7 +2371,7 @@
             "url": "https://taskmaster.info/task.php?id=462"
           },
           {
-            "title": "Transfer the water from one barrel to another",
+            "title": "Transfer water from butt A to butt B",
             "url": "https://taskmaster.info/task.php?id=463"
           },
           {
@@ -2479,7 +2479,7 @@
             "url": "https://taskmaster.info/task.php?id=483"
           },
           {
-            "title": "Neatly hang all the clothes on a rail without stepping over the line",
+            "title": "Neatly hang all the mannequin’s clothes on a rail",
             "url": "https://taskmaster.info/task.php?id=484"
           },
           {
@@ -2623,7 +2623,7 @@
             "url": "https://taskmaster.info/task.php?id=838"
           },
           {
-            "title": "Get the sheet of loo roll as far away as possible",
+            "title": "Get the toilet paper as far away as possible",
             "url": "https://taskmaster.info/task.php?id=839"
           },
           {
@@ -2814,7 +2814,7 @@
             "url": "https://taskmaster.info/task.php?id=1243"
           },
           {
-            "title": "Paint a flattering picture of the Taskmaster in action",
+            "title": "Paint a flattering picture of the Taskmaster while lying on your back",
             "url": "https://taskmaster.info/task.php?id=1244"
           },
           {
@@ -2952,7 +2952,7 @@
             "url": "https://taskmaster.info/task.php?id=1391"
           },
           {
-            "title": "Make paper aeroplanes",
+            "title": "Make paper aeroplanes and land them in the receptacles",
             "url": "https://taskmaster.info/task.php?id=1392"
           }
         ]
@@ -3174,7 +3174,7 @@
             "url": "https://taskmaster.info/task.php?id=1909"
           },
           {
-            "title": "Face leg or other leg?",
+            "title": "Face leg, or different leg?",
             "url": "https://taskmaster.info/task.php?id=1910"
           }
         ]
@@ -3222,7 +3222,7 @@
             "url": "https://taskmaster.info/task.php?id=1944"
           },
           {
-            "title": "High-five Alex",
+            "title": "High-five Alex third",
             "url": "https://taskmaster.info/task.php?id=1945"
           },
           {
@@ -3890,7 +3890,7 @@
             "url": "https://taskmaster.info/task.php?id=2573"
           },
           {
-            "title": "Rotate the pulper wheel without pulping the egg",
+            "title": "Rotate the pulper without pulping the egg",
             "url": "https://taskmaster.info/task.php?id=2574"
           },
           {
@@ -4167,7 +4167,7 @@
             "url": "https://taskmaster.info/task.php?id=2807"
           },
           {
-            "title": "Play with these switches / Balance the most golf tees",
+            "title": "Play with these switches, then balance golf tees",
             "url": "https://taskmaster.info/task.php?id=2808"
           },
           {
@@ -4342,53 +4342,326 @@
     "url": "https://taskmaster.info/season.php?id=74",
     "episodes": [
       {
-        "title": "Episode 1",
+        "title": "Grappling with my life",
         "url": "https://taskmaster.info/episode.php?id=610",
+        "tasks": [
+          {
+            "title": "The most glorious thing that sounds a bit like ‘Greg Davies’, if you mumble it",
+            "url": "https://taskmaster.info/task.php?id=3058"
+          },
+          {
+            "title": "Do the riskiest thing with this egg",
+            "url": "https://taskmaster.info/task.php?id=3059"
+          },
+          {
+            "title": "Create a picture of an animal doing something surprising",
+            "url": "https://taskmaster.info/task.php?id=3060"
+          },
+          {
+            "title": "Hoopla Gary before he crosses the finish line",
+            "url": "https://taskmaster.info/task.php?id=3061"
+          },
+          {
+            "title": "Make your sausage...",
+            "url": "https://taskmaster.info/task.php?id=3062"
+          },
+          {
+            "title": "Identify which chess piece is not in the peas chest",
+            "url": "https://taskmaster.info/task.php?id=3063"
+          }
+        ]
+      },
+      {
+        "title": "Jumungo",
+        "url": "https://taskmaster.info/episode.php?id=611",
+        "tasks": [
+          {
+            "title": "The most fun thing to turn upside-down",
+            "url": "https://taskmaster.info/task.php?id=3102"
+          },
+          {
+            "title": "Rescue Patatas from the dome",
+            "url": "https://taskmaster.info/task.php?id=3103"
+          },
+          {
+            "title": "Do something epic using green-screen",
+            "url": "https://taskmaster.info/task.php?id=3104"
+          },
+          {
+            "title": "Stick the heaviest thing to the board",
+            "url": "https://taskmaster.info/task.php?id=3105"
+          },
+          {
+            "title": "Guess the movie that your team-mate is saying",
+            "url": "https://taskmaster.info/task.php?id=3106"
+          }
+        ]
+      },
+      {
+        "title": "Some impropriety?",
+        "url": "https://taskmaster.info/episode.php?id=612",
+        "tasks": [
+          {
+            "title": "The best thing for a person that is meant for an animal",
+            "url": "https://taskmaster.info/task.php?id=3129"
+          },
+          {
+            "title": "Work out who is following you",
+            "url": "https://taskmaster.info/task.php?id=3130"
+          },
+          {
+            "title": "Complete the jobstacle course",
+            "url": "https://taskmaster.info/task.php?id=3131"
+          },
+          {
+            "title": "Create tension",
+            "url": "https://taskmaster.info/task.php?id=3132"
+          },
+          {
+            "title": "Catch the most monsters in your boxes",
+            "url": "https://taskmaster.info/task.php?id=3133"
+          }
+        ]
+      },
+      {
+        "title": "Apropos of Apoppo",
+        "url": "https://taskmaster.info/episode.php?id=613",
+        "tasks": [
+          {
+            "title": "The greatest thing to give to a granny",
+            "url": "https://taskmaster.info/task.php?id=3153"
+          },
+          {
+            "title": "Work out who you are shaking hands with",
+            "url": "https://taskmaster.info/task.php?id=3154"
+          },
+          {
+            "title": "Create the biggest and best dot-to-dot picture",
+            "url": "https://taskmaster.info/task.php?id=3155"
+          },
+          {
+            "title": "Find and complete the second half of the task",
+            "url": "https://taskmaster.info/task.php?id=3156"
+          },
+          {
+            "title": "Pass the loo roll through the loo roll inner tube",
+            "url": "https://taskmaster.info/task.php?id=3157"
+          }
+        ]
+      },
+      {
+        "title": "Snooker cue umbrella chin",
+        "url": "https://taskmaster.info/episode.php?id=614",
+        "tasks": [
+          {
+            "title": "The most extraordinary picture",
+            "url": "https://taskmaster.info/task.php?id=3165"
+          },
+          {
+            "title": "Be the most impressive load-bearer",
+            "url": "https://taskmaster.info/task.php?id=3166"
+          },
+          {
+            "title": "Take the most dramatic photo of yourself in mid-air",
+            "url": "https://taskmaster.info/task.php?id=3167"
+          },
+          {
+            "title": "Tie yourself to the bed",
+            "url": "https://taskmaster.info/task.php?id=3168"
+          },
+          {
+            "title": "Park a vehicle in the parking bay",
+            "url": "https://taskmaster.info/task.php?id=3169"
+          }
+        ]
+      },
+      {
+        "title": "A three ring man",
+        "url": "https://taskmaster.info/episode.php?id=615",
+        "tasks": [
+          {
+            "title": "The best thing that you can get into",
+            "url": "https://taskmaster.info/task.php?id=3170"
+          },
+          {
+            "title": "Make a bespoke personal hamper for another contestant",
+            "url": "https://taskmaster.info/task.php?id=3171"
+          },
+          {
+            "title": "Have the most exciting thumb war with Alex",
+            "url": "https://taskmaster.info/task.php?id=3172"
+          },
+          {
+            "title": "Make the most moves on the movement circles",
+            "url": "https://taskmaster.info/task.php?id=3173"
+          },
+          {
+            "title": "Create a portrait of another contestant using the contents of a hamper",
+            "url": "https://taskmaster.info/task.php?id=3174"
+          },
+          {
+            "title": "Completely cover your team-mate in rubber rings",
+            "url": "https://taskmaster.info/task.php?id=3175"
+          }
+        ]
+      },
+      {
+        "title": "Dream date territory",
+        "url": "https://taskmaster.info/episode.php?id=616",
+        "tasks": [
+          {
+            "title": "The snazziest hollow thing",
+            "url": "https://taskmaster.info/task.php?id=3192"
+          },
+          {
+            "title": "Figure out what you’ve caught",
+            "url": "https://taskmaster.info/task.php?id=3193"
+          },
+          {
+            "title": "Perform a recognisable piece of classical music",
+            "url": "https://taskmaster.info/task.php?id=3194"
+          },
+          {
+            "title": "Get the most orange juice in the vase",
+            "url": "https://taskmaster.info/task.php?id=3195"
+          },
+          {
+            "title": "Paint a face on your ball",
+            "url": "https://taskmaster.info/task.php?id=3196"
+          }
+        ]
+      },
+      {
+        "title": "The umbrella wink",
+        "url": "https://taskmaster.info/episode.php?id=617",
+        "tasks": [
+          {
+            "title": "The thing that Greg would most like to squeeze",
+            "url": "https://taskmaster.info/task.php?id=3202"
+          },
+          {
+            "title": "Flick, flip, and flap a flip-flop, flan, and flapjack",
+            "url": "https://taskmaster.info/task.php?id=3203"
+          },
+          {
+            "title": "Put the watermelon on the table while completing secret tasks",
+            "url": "https://taskmaster.info/task.php?id=3204"
+          },
+          {
+            "title": "Bring a mannequin to life",
+            "url": "https://taskmaster.info/task.php?id=3205"
+          },
+          {
+            "title": "Write answers to Greg’s questions based on the letter you have chosen",
+            "url": "https://taskmaster.info/task.php?id=3206"
+          }
+        ]
+      },
+      {
+        "title": "Assistantbury",
+        "url": "https://taskmaster.info/episode.php?id=618",
+        "tasks": [
+          {
+            "title": "The most splendid spherical thing",
+            "url": "https://taskmaster.info/task.php?id=3233"
+          },
+          {
+            "title": "Celebrate Assistant’s Day",
+            "url": "https://taskmaster.info/task.php?id=3234"
+          },
+          {
+            "title": "Peg a sock, bin a sock, don a sock",
+            "url": "https://taskmaster.info/task.php?id=3235"
+          },
+          {
+            "title": "Make the back of your head look like the front of a head",
+            "url": "https://taskmaster.info/task.php?id=3236"
+          },
+          {
+            "title": "Bounce a ball on the bar",
+            "url": "https://taskmaster.info/task.php?id=3237"
+          }
+        ]
+      },
+      {
+        "title": "Ambience and information",
+        "url": "https://taskmaster.info/episode.php?id=619",
+        "tasks": [
+          {
+            "title": "The thing that gives the most hope for the future of the human race",
+            "url": "https://taskmaster.info/task.php?id=3252"
+          },
+          {
+            "title": "Find and complete the real task",
+            "url": "https://taskmaster.info/task.php?id=3253"
+          },
+          {
+            "title": "Hug your special friend",
+            "url": "https://taskmaster.info/task.php?id=3254"
+          },
+          {
+            "title": "Create a shiny floor American game show",
+            "url": "https://taskmaster.info/task.php?id=3255"
+          },
+          {
+            "title": "Pop up from behind the wall",
+            "url": "https://taskmaster.info/task.php?id=3256"
+          }
+        ]
+      }
+    ]
+  },
+  "Series 18": {
+    "url": "https://taskmaster.info/season.php?id=75",
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "url": "https://taskmaster.info/episode.php?id=652",
         "tasks": []
       },
       {
         "title": "Episode 2",
-        "url": "https://taskmaster.info/episode.php?id=611",
+        "url": "https://taskmaster.info/episode.php?id=653",
         "tasks": []
       },
       {
         "title": "Episode 3",
-        "url": "https://taskmaster.info/episode.php?id=612",
+        "url": "https://taskmaster.info/episode.php?id=654",
         "tasks": []
       },
       {
         "title": "Episode 4",
-        "url": "https://taskmaster.info/episode.php?id=613",
+        "url": "https://taskmaster.info/episode.php?id=655",
         "tasks": []
       },
       {
         "title": "Episode 5",
-        "url": "https://taskmaster.info/episode.php?id=614",
+        "url": "https://taskmaster.info/episode.php?id=656",
         "tasks": []
       },
       {
         "title": "Episode 6",
-        "url": "https://taskmaster.info/episode.php?id=615",
+        "url": "https://taskmaster.info/episode.php?id=657",
         "tasks": []
       },
       {
         "title": "Episode 7",
-        "url": "https://taskmaster.info/episode.php?id=616",
+        "url": "https://taskmaster.info/episode.php?id=658",
         "tasks": []
       },
       {
         "title": "Episode 8",
-        "url": "https://taskmaster.info/episode.php?id=617",
+        "url": "https://taskmaster.info/episode.php?id=659",
         "tasks": []
       },
       {
         "title": "Episode 9",
-        "url": "https://taskmaster.info/episode.php?id=618",
+        "url": "https://taskmaster.info/episode.php?id=660",
         "tasks": []
       },
       {
         "title": "Episode 10",
-        "url": "https://taskmaster.info/episode.php?id=619",
+        "url": "https://taskmaster.info/episode.php?id=661",
         "tasks": []
       }
     ]

@@ -718,44 +718,89 @@
     "url": "https://taskmaster.info/season.php?id=74",
     "episodes": [
       {
-        "title": "Episode 1",
+        "title": "Grappling with my life",
         "url": "https://taskmaster.info/episode.php?id=610"
       },
       {
-        "title": "Episode 2",
+        "title": "Jumungo",
         "url": "https://taskmaster.info/episode.php?id=611"
       },
       {
-        "title": "Episode 3",
+        "title": "Some impropriety?",
         "url": "https://taskmaster.info/episode.php?id=612"
       },
       {
-        "title": "Episode 4",
+        "title": "Apropos of Apoppo",
         "url": "https://taskmaster.info/episode.php?id=613"
       },
       {
-        "title": "Episode 5",
+        "title": "Snooker cue umbrella chin",
         "url": "https://taskmaster.info/episode.php?id=614"
       },
       {
-        "title": "Episode 6",
+        "title": "A three ring man",
         "url": "https://taskmaster.info/episode.php?id=615"
       },
       {
-        "title": "Episode 7",
+        "title": "Dream date territory",
         "url": "https://taskmaster.info/episode.php?id=616"
       },
       {
-        "title": "Episode 8",
+        "title": "The umbrella wink",
         "url": "https://taskmaster.info/episode.php?id=617"
       },
       {
-        "title": "Episode 9",
+        "title": "Assistantbury",
         "url": "https://taskmaster.info/episode.php?id=618"
       },
       {
-        "title": "Episode 10",
+        "title": "Ambience and information",
         "url": "https://taskmaster.info/episode.php?id=619"
+      }
+    ]
+  },
+  "Series 18": {
+    "url": "https://taskmaster.info/season.php?id=75",
+    "episodes": [
+      {
+        "title": "Episode 1",
+        "url": "https://taskmaster.info/episode.php?id=652"
+      },
+      {
+        "title": "Episode 2",
+        "url": "https://taskmaster.info/episode.php?id=653"
+      },
+      {
+        "title": "Episode 3",
+        "url": "https://taskmaster.info/episode.php?id=654"
+      },
+      {
+        "title": "Episode 4",
+        "url": "https://taskmaster.info/episode.php?id=655"
+      },
+      {
+        "title": "Episode 5",
+        "url": "https://taskmaster.info/episode.php?id=656"
+      },
+      {
+        "title": "Episode 6",
+        "url": "https://taskmaster.info/episode.php?id=657"
+      },
+      {
+        "title": "Episode 7",
+        "url": "https://taskmaster.info/episode.php?id=658"
+      },
+      {
+        "title": "Episode 8",
+        "url": "https://taskmaster.info/episode.php?id=659"
+      },
+      {
+        "title": "Episode 9",
+        "url": "https://taskmaster.info/episode.php?id=660"
+      },
+      {
+        "title": "Episode 10",
+        "url": "https://taskmaster.info/episode.php?id=661"
       }
     ]
   }
