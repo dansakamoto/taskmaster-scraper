@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://taskmaster.info",
+  "headers": {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+  },
+  "attemptLimit": 5,
+  "seasonBlacklist": ["Edinburgh Does... Taskmaster"],
+  "targetVersions": {
+    "Taskmaster UK": {
+      "url": "https://taskmaster.info/show.php?id=1"
+    },
+    "Taskmaster NZ": {
+      "url": "https://taskmaster.info/show.php?id=8"
+    },
+    "Taskmaster Australia": {
+      "url": "https://taskmaster.info/show.php?id=14"
+    }
+  }
+}
