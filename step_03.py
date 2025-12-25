@@ -45,15 +45,15 @@ for versionKey, version in allVersions.items():
 
             soup2 = soup.select_one("#taskmaster-intro > blockquote")
             if soup2 != None:
-                episode["taskmasterIntro"] = soup2.string
+                episode["taskmasterIntro"] = str(soup2)
 
             soup2 = soup.select_one("#assistant-intro > blockquote")
             if soup2 != None:
-                episode["assistantIntro"] = soup2.string
+                episode["assistantIntro"] = str(soup2)
 
             soup2 = soup.select_one("#taskmaster-signoff > blockquote")
             if soup2 != None:
-                episode["taskmasterSignoff"] = soup2.string
+                episode["taskmasterSignoff"] = str(soup2)
 
             soup2 = soup.select(
                 "#tasks > div.task > div.taskInfo > div.taskCardTaskTitle > h3.taskLink > a"

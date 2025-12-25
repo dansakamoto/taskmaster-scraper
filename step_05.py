@@ -25,10 +25,10 @@ for versionKey, version in allVersions.items():
             for taskKey, task in episode["tasks"].items():
                 for attempt in task["attempts"]:
                     sleep(random.uniform(0.5, 2))
-                    print("\nScanning attempt: " + attempt["attemptTitle"])
                     if attempt["url"] == None:
                         print("No URL found, skipping...")
                         continue
+                    print("\nScanning attempt: " + attempt["attemptTitle"])
                     print("URL found: " + attempt["url"] + "\n")
                     req = Request(attempt["url"], headers=headers)
                     html_page = None
@@ -58,10 +58,8 @@ for versionKey, version in allVersions.items():
                     )
                     if len(soup2) > 0:
                         for item in soup2:
-                            print(
-                                f"found contestant: {item.string}\nurl: {item['href']}"
-                            )
-                            contestants[item.string] = {"url": item["href"]}
+                            print(f"found contestant: {str(item)}\nurl: {item['href']}")
+                            contestants[str(item)] = {"url": item["href"]}
                         attempt["contestants"] = contestants
 
 

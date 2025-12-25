@@ -53,16 +53,16 @@ for versionKey, version in allVersions.items():
                 soup2 = soup.select("#attempts > div.attempt > p.attemptTitle > a")
                 if len(soup2) > 0:
                     for item in soup2:
-                        print(f"found attempt: {item.string}\nurl: {item['href']}")
+                        print(f"found attempt: {str(item)}\nurl: {item['href']}")
                         attempts.append(
-                            {"attemptTitle": item.string, "url": baseUrl + item["href"]}
+                            {"attemptTitle": str(item), "url": baseUrl + item["href"]}
                         )
 
                 soup2 = soup.select("#attemptList > ul > li")
                 if len(soup2) > 0:
                     for item in soup2:
-                        print(f"found attempt: {item.string}\n(No URL)")
-                        attempts.append({"description": item.string})
+                        print(f"found attempt: {str(item)}\n(No URL)")
+                        attempts.append({"description": str(item)})
 
                 if len(attempts) > 0:
                     task["attempts"] = attempts
