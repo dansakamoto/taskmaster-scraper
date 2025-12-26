@@ -21,6 +21,7 @@ for versionKey, version in allVersions.items():
                 taskCount = taskCount + 1
                 soup = BeautifulSoup(task["description"], "html.parser")
 
+                briefCount = 0
                 child = soup.findChild()
                 while child:
                     name = child.name
@@ -28,6 +29,8 @@ for versionKey, version in allVersions.items():
                         name += " id: " + child.attrs["id"]
                     elif "class" in child.attrs:
                         name += " class: " + child.attrs["class"][0]
+                        if child.attrs["class"][0] == "taskBrief":
+                            briefCount = briefCount + 1
 
                     if name not in elements:
                         elements[name] = 1
@@ -35,6 +38,9 @@ for versionKey, version in allVersions.items():
                         elements[name] = elements[name] + 1
 
                     child = child.findNextSibling()
+
+                if briefCount > 1:
+                    print(task["url"])
 
 
 print("Total Tasks: " + str(taskCount))
