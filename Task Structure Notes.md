@@ -28,3 +28,19 @@ DIV ID=aboutTask (ASSUMED EXISTS AND UNIQUE)
         ul of task notes (ASSUMED EXISTS AND UNIQUE)
 
     ASSUMPTION: no other elements inside aboutTask
+
+---
+
+briefIntro (first p)
+
+Array - 1 or more briefs
+briefNote (optional, p class)
+taskBrief (blockquote, class)
+
+TaskNotes
+
+if ul - task notes
+if p class: callToAction - no notes
+one exception to check: https://taskmaster.info/task.php?id=4177
+
+https://taskmaster.info/task.php?id=4177
